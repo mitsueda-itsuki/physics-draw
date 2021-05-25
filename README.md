@@ -1,3 +1,5 @@
+# ---------- [EN] ----------
+
 # Physics Draw
 
 A web application for simulating physical phenomena.
@@ -7,6 +9,8 @@ A web application for simulating physical phenomena.
 Currently, this web application implements a simulation of Brownian motion using a stochastic model.
 It uses a linear feedback shift register (LFSR) for random number generation, which is implemented by myself.
 It also allows you to choose the primitive polynomial to be used for the LFSR.
+
+# ---------- [JP] ----------
 
 # Physics Draw
 
