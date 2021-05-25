@@ -16,8 +16,11 @@ class LFSR {
     const taps = this.taps
     let bit = 0
     taps.forEach(tap => bit ^= 1 & (reg >> tap))
-    /*eslint no-eval: "error"*/
-    this.reg = eval(`0b${"1".repeat(this.digit)}`) & ((reg << 1) | bit)
+    let bin = 0
+    for (let i = 0; i < this.digit; i++) {
+      bin += (2 ** i)
+    }
+    this.reg = bin & ((reg << 1) | bit)
     return reg
   }
 }
