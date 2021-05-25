@@ -21,3 +21,5 @@ It also allows you to choose the primitive polynomial to be used for the LFSR.
 現在このWebアプリケーションには確率モデルを用いたブラウン運動のシミュレーションが実装されています。
 乱数生成には線形帰還シフトレジスタ(LFSR)を用いており、自前で実装しています。
 またLFSRに使用する原始多項式を選べるようになっています。
+
+URL: https://physics-draw.netlify.app/
